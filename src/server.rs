@@ -18,7 +18,6 @@ use monoio::{
     net::TcpStream,
 };
 use serde::Deserialize;
-use std::net::SocketAddr;
 use ppp::v2;
 
 use crate::{
